@@ -27,6 +27,7 @@ const CardDetail = () => {
       <p>Fecha de estreno: {item.year}</p>
       <p>Director: {item.director}</p>
       <p>Actor Principal: {item.star}</p>
+      <p>Puntuacion: {item.score}</p>
     </div>
   );
 };

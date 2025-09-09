@@ -2,6 +2,13 @@
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       gap:1rem;
-      height: 100vh;
       justify-content: center;
+}
+
+.listCard__button {
+      margin: 1rem;
+      background: #ddd;
+      padding: 0.5rem;
+      border-radius: 1rem;
+      min-width: 18rem;
 }
